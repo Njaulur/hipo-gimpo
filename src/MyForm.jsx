@@ -25,7 +25,7 @@ class MyForm extends Component {
   render() {
     return (
       <div>
-        <h1><b>submit your details</b></h1>
+        <h1><strong>SUBMIT YOUR DETAILS</strong></h1>
         <form onSubmit={this.handleSubmit}>
           <div>
             <label htmlFor="firstName">First Name:</label>
